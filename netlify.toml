@@ -1,3 +1,7 @@
+[build]
+  # Set the base directory for Netlify to look for files
+  publish = "."
+
 [[redirects]]
 from="/*"
 to="https://peach-profile.netlify.app/:splat"
